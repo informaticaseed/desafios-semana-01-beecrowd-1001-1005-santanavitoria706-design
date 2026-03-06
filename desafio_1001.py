@@ -12,3 +12,12 @@ você receberá "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
 # Escreva sua solução abaixo
+# Reading input values
+A = int(input())
+B = int(input())
+
+# Calculating the sum
+X = A + B
+
+# Printing the result in the required format
+print(f"X = {X}")

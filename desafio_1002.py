@@ -18,3 +18,14 @@ exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla p
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1002
 
 # Escreva sua solução abaixo
+# Reading the radius as a float
+raio = float(input())
+
+# Defining the constant pi
+pi = 3.14159
+
+# Calculating the area: pi * radius^2
+area = pi * (raio ** 2)
+
+# Printing the result formatted to 4 decimal places
+print(f"A={area:.4f}")

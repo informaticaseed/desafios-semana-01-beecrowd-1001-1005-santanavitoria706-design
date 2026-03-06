@@ -15,3 +15,12 @@ caso contrário seu programa apresentará a mensagem: "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1004
 
 # Escreva sua solução abaixo
+# Reading two integer inputs
+A = int(input())
+B = int(input())
+
+# Calculating the product
+PROD = A * B
+
+# Printing the result as specified
+print(f"PROD = {PROD}")
